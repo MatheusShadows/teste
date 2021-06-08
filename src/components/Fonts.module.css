@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=outline|emboss|shadow-multiple");
+.firstpart{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-shadow: 3px 3px 3px #09012b;
+    font-family: 'Kaushan Script', cursive;
+    margin: 5px 25px 5px 25px;
+  }
+  .name{
+    font-family: "Sofia", cursive;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px #0c0b0b;
+    margin: 5px 25px 5px 25px;
+  }
+.button{
+  font-family: sans-serif;
+  color:rgb(9, 16, 112);
+  margin: 3px 25px 3px 25px;
+  font-size: 20px;
+  padding: 16px;
+  background-color: rgb(225, 252, 252);
+
+}

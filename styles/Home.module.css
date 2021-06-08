@@ -1,0 +1,11 @@
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/image/background.jpg");
+  min-height: 100%;
+  line-height: 700%;
+}
+.first-part{
+  color: green;
+}
