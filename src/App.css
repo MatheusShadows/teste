@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto&display=swap");
 body{
-    background-color: rgb(73, 73, 73);
-    color: white;
+    background-color: rgb(247, 245, 245);
+    color: rgb(20, 20, 20);
     margin: 0;
     font-family: 'Dela Gothic One', cursive;
-
 }

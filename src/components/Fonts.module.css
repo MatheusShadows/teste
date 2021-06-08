@@ -6,7 +6,7 @@
     font-size: 70px;
     text-shadow: 3px 3px 3px #09012b;
     font-family: 'Kaushan Script', cursive;
-    margin: 5px 25px 5px 25px;
+    margin: 0px 25px 0px 25px;
   }
   .name{
     font-family: "Sofia", cursive;
@@ -19,8 +19,41 @@
   font-family: sans-serif;
   color:rgb(9, 16, 112);
   margin: 3px 25px 3px 25px;
-  font-size: 20px;
-  padding: 16px;
+  font-size: 25px;
+  padding: 18px;
   background-color: rgb(225, 252, 252);
 
+}
+.description{
+  font-family: sans-serif;
+  color:rgb(49, 48, 48);
+  line-height: 145%;
+  margin: 3px 5px 3px 5px;
+  font-size: 18px;
+}
+.sobrenos{
+  color: rgb(19, 17, 150);
+  font-size: 34px; 
+  font-family: 'Kaushan Script', cursive;
+  margin: 2px 2px 2px 2px;
+}
+.aulas{
+  color: rgb(19, 17, 150);
+  font-size: 50px; 
+  font-family: 'Kaushan Script', cursive;
+  margin: 2px 2px 2px 2px;
+  text-align: center;
+}
+.aulassub{
+  color: rgb(0, 0, 0);
+  font-size: 25px; 
+  font-family: 'Dela Gothic One', cursive;
+  margin: 9px 2px 9px 2px;
+  text-align: center;
+}
+.main{
+  color: rgb(0, 0, 0);
+  margin: 9px 0px 9px 0px;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 35px;
 }
