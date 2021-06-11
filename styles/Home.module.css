@@ -1,10 +1,11 @@
 
 .bgimg {
   background-position: center;
-  background-size: cover;
   background-image: url("/image/background.jpg");
-  min-height: 640px;
-  line-height: 750%;
+  padding: 9%;
+  height: 'cover';
+  line-height: 700%;
+  width:'auto';
 }
 .header{
   
@@ -26,17 +27,20 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
 }
-.gridv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: max-content;
-  flex-wrap: wrap;
-}
 .bgmentores {
   background-position: center;
   background-size: cover;
   background-image: url("/image/colab.jpeg");
-  min-height: 640px;
+  clear:both;
+  padding: 9%;
+  height: 720px;
+  width: auto;
   line-height: 99%;
+}
+.cardy{
+  width: 95%;
+  object-fit: fill;
+  border-radius: 25px;
+  border: 0px solid #030116;
+  padding: 1px;
 }

@@ -1,0 +1,33 @@
+
+  .column {
+    float: left;
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 0px 0 -25px;}
+
+  .row::after {
+    content: "";
+    display: flex;
+    flex-direction: column;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 12px;
+    text-align: center;
+    width: 97%;
+    background-color: #f1f1f1;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

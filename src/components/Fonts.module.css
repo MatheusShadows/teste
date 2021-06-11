@@ -57,3 +57,11 @@
   font-family: 'Dela Gothic One', cursive;
   font-size: 35px;
 }
+.mentores{
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  text-shadow: 3px 3px 3px #09012b;
+  font-family: 'Kaushan Script', cursive;
+  margin: 0px 25px 0px 25px;
+  text-align: center;
+}
