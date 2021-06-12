@@ -16,7 +16,7 @@ const images=['../image/m2.png','../image/m3.png','../image/m4.png','../image/m5
 
 
 export default () => {
-  var[scrollx, setScrollx] = useState(-884); 
+  var[scrollx, setScrollx] = useState(-442); 
 
   const scrollleft = () =>{
       let x = scrollx + 442;
