@@ -23,7 +23,13 @@
   padding: 19px;
   background-color: rgb(225, 252, 252);
   border-radius: 25px;
-  border: 9px solid royalblue; 
+  border: 9px solid royalblue;
+  transition: 0.7s; 
+}
+.button:hover{
+  background-color: royalblue;
+  color:rgb(255, 255, 255);
+  border: 9px solid rgb(225, 252, 252)
 }
 .description{
   font-family: sans-serif;
