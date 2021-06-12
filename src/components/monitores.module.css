@@ -46,6 +46,7 @@
      color: white;
      opacity: 0;
      transition: ease 0.3s;
+     transform: scale(0.9);
   }
 .before{
     left: 0;
@@ -56,4 +57,8 @@
  .listarea:hover .next,
  .listarea:hover .before{
      opacity: 1;
+ }.next:hover, .before:hover{
+     background-color: white;
+     color: royalblue;
+     transform: scale(1.0)
  }

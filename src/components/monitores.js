@@ -16,17 +16,17 @@ const images=['../image/m2.png','../image/m3.png','../image/m4.png','../image/m5
 
 
 export default () => {
-  var[scrollx, setScrollx] = useState(-440); 
+  var[scrollx, setScrollx] = useState(-884); 
 
   const scrollleft = () =>{
-      let x = scrollx + 440;
+      let x = scrollx + 442;
       if(x>0){
         x=0;
       }
       setScrollx(x);
   } 
   const scrollright = () =>{
-    let x = scrollx - 440;
+    let x = scrollx - 442;
     if(x<-3500){
       x=0;
     }
