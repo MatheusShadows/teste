@@ -1,0 +1,25 @@
+.header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: transparent;
+    background-color: rgb(6, 1,20);
+}
+.headerlogo{
+    height: 90px;
+}
+.headerlogoimg{
+    height: 99%;
+}
+.headertopo{
+    height: 25px;
+    font-size: 99%;
+    color:rgb(0, 0, 0);
+}

@@ -5,3 +5,32 @@ body{
     margin: 0;
     font-family: 'Dela Gothic One', cursive;
 }
+header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: transparent;
+}
+header.blue{
+    background-color: royalblue;
+    background: scroll;
+}
+.header--logo{
+    height: 80px;
+}
+.header--logo img{
+    height: 99%;
+}
+.header--menu{
+    height: 25px;
+}
+.header--menu img{
+    height: 99%;
+}

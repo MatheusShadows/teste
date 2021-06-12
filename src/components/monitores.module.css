@@ -1,19 +1,25 @@
 .listarea{
-    overflow-x: scroll;
-    margin-top: 90px;
+    overflow-x: hidden;
+    margin-top: 75px;
 }
 .list{
     display: inline-block;
-    width: 3570px;
+    width: 3530px;
+    transition: ease 0.3s;
 }
 .item{
-    width: 99%;
+    width: 100%;
     margin: 0px 0px 0px 0px;
 }
 .card{
     margin: 0px 2% 0px 2%;
     border-radius: 50%; 
-    border: 0px solid rgb(255, 255, 255) 
+    border: 0px solid rgb(255, 255, 255);
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+.card:hover{
+    transform: scale(1.0);
 }
 .cardtxt {
     margin: 20px 2% 30px 2%;
@@ -26,3 +32,28 @@
     display: inline-table;
 
   }
+  .next , .before{
+     font-size: 50px;
+     position: absolute;
+     width: 40px;
+     height: 300px;
+     background-color: royalblue;
+     z-index: 99;    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor:pointer;
+     color: white;
+     opacity: 0;
+     transition: ease 0.3s;
+  }
+.before{
+    left: 0;
+ }
+ .next{
+    right:0;
+ }
+ .listarea:hover .next,
+ .listarea:hover .before{
+     opacity: 1;
+ }

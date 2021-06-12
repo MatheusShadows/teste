@@ -3,12 +3,12 @@
   background-position: center;
   background-image: url("/image/background.jpg");
   padding: 9%;
-  height: 'cover';
+  height: cover;
   line-height: 700%;
   width:'auto';
-}
-.header{
-  
+  margin-bottom: 30px;
+  margin-top: 55px;
+  overflow: hidden;
 }
 .grid {
   display: flex;
@@ -34,7 +34,8 @@
   width: auto;
   line-height: 99%;
   text-align: start;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  margin-top: 75px;
 }
 .cardy{
   width: 95%;
@@ -72,14 +73,14 @@
 }
 .input{
   width: 70%;
-  height: 50px;
+  height: 40px;
   box-sizing: border-box;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 9px;
 }
 .text{
   width: 70%;
-  height: 200px;
+  height: 120px;
   margin-left: 20px;
 }
 .contato{

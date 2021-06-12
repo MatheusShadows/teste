@@ -6,18 +6,22 @@ import Fonts from '../src/components/Fonts.module.css';
 import Link from 'next/link';
 import { Button } from 'react-bootstrap';
 import YouTube from 'react-youtube';
-import React from 'react';
 import Rows from '../styles/rrows.module.css';
 import Monitores from '../src/components/monitores';
+import Header from '../src/components/Header';
+import React, { useEffect, useState } from 'react';
+
 
 export default function Home2() {
   return (
-    <div>
+       <div>
       <Head>
         <title>Coders4fu</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-       </Head> 
+       </Head>
+       <Header/>
+       <a id="topo"/>
        <div className={layouts.bgimg}>
          
       <h1 className={Fonts.firstpart}>"Não é sobre aprender

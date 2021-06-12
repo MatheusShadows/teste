@@ -24,7 +24,8 @@
   background-color: rgb(225, 252, 252);
   border-radius: 25px;
   border: 9px solid royalblue;
-  transition: 0.7s; 
+  transition: 0.4s; 
+  cursor: pointer;
 }
 .button:hover{
   background-color: royalblue;
