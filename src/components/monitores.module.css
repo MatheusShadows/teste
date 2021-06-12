@@ -25,7 +25,7 @@
     margin: 20px 2% 30px 2%;
     text-align: center;
     line-height: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(235, 235, 235);
     font-size: 20px;
     width: 300px;
     height: 100px;
@@ -62,3 +62,6 @@
      color: royalblue;
      transform: scale(1.0)
  }
+ @media (max-width: 760px){
+     .next,.before{opacity: 1;}
+    }
