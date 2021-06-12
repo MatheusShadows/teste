@@ -15,27 +15,26 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  size: 99%;
 }
 .card {
   margin: 1rem;
-  padding: 1px;
   text-align: center;
   color: inherit;
   text-decoration: none;
-  border: 0px solid #030116;
-  border-radius: 1px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+  width: 47%;
 }
 .bgmentores {
   background-position: center;
   background-size: cover;
   background-image: url("/image/colab.jpeg");
-  clear:both;
-  padding: 9%;
+  padding: 3%;
+  padding-top: 14%;
   height: 720px;
   width: auto;
   line-height: 99%;
+  text-align: start;
+  margin-bottom: 30px;
 }
 .cardy{
   width: 95%;
@@ -43,4 +42,47 @@
   border-radius: 25px;
   border: 0px solid #030116;
   padding: 1px;
+}
+.bgapoiadores {
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(6, 1, 20);
+  height: 99%;
+  width: 100%;
+  line-height: 99%;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20%;
+  padding-top: 2%;
+}
+.banners{
+  width: 320px;
+  height: auto;
+  object-fit: fill;
+  border-radius: 25%;
+  border: 30px solid #030116;
+  padding: 1px;
+  margin: 0px 0px 0px 0px
+}
+.textbox{
+  width: 90px;
+  height: 90px;
+  text-align: left;
+  display: inline-block;
+}
+.input{
+  width: 70%;
+  height: 50px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.text{
+  width: 70%;
+  height: 200px;
+  margin-left: 20px;
+}
+.contato{
+  text-align: center;
+  padding: 5%;
 }

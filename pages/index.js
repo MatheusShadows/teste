@@ -8,6 +8,7 @@ import { Button } from 'react-bootstrap';
 import YouTube from 'react-youtube';
 import React from 'react';
 import Rows from '../styles/rrows.module.css';
+import Monitores from '../src/components/monitores';
 
 export default function Home2() {
   return (
@@ -25,7 +26,7 @@ resolver problemas"</h1>
 
       <h1 className={Fonts.name}>"-Willys Campos"</h1>
       
-      <Link href="https://nextjs.org/docs">
+      <Link href="#contato">
         <button className={Fonts.button}>Entre em Contato
           </button>
           </Link>
@@ -66,7 +67,80 @@ resolver problemas"</h1>
   </a>
   <div className={layouts.bgmentores}>
   <h3 className={Fonts.mentores} >MENTORES</h3>
+      <Monitores />
+  </div>
+
+  <div>
+    <h2 className={Fonts.aulassub}>Depoimentos</h2>
+    <div className={Rows.rowd}>
+      <div className={Rows.columnd}>
+       <div className={Rows.cardd}>
+      <img className={Rows.img} src="../image/d2.jpg"/>
+      <h2>André Leal</h2><h3>Aluno do curso</h3>
+      <p className={Fonts.description}>O investimento em conhecimento é o melhor que se pode fazer em tempos de pandemia. Coders4Future(HTML,CSS e JS), Excelente aprendizado. Grato ao professor Willys Campos pela dedicação e boa vontade.</p>
+       </div>
+       <div className={Rows.cardd}>
+      <img className={Rows.img} src="../image/d3.jpg"/>
+      <h2>Pedro Braga</h2><h3>Aluno do curso</h3>
+      <p className={Fonts.description}>Sigo firme nessa jornada, obrigado pelo conhecimento compartilhado até aqui Willys</p>
+       </div>
+       <div className={Rows.cardd}>
+      <img className={Rows.img} src="../image/d4.jpg"/>
+      <h2>Suellen Jucá</h2><h3>Aluno do curso</h3>
+      <p className={Fonts.description}>Maravilhosa iniciativa do Prof. Willys. Sabemos que com a alta demanda do mercado de TI,buscando profissionais flexíveis em relação às tecnologias nos quais trabalham, com o surgimento de novas ferramentas, novos processos ou novos métodos, de modo que fica difícil aprender tudo. Contudo, estar disposto a aprender se torna fundamental para evoluir como profissional. Agradeço seu trabalho.</p>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div className={layouts.bgapoiadores}>
+    <h2 className={Fonts.apoiadores}>
+      Apoiadores
+    </h2>
+    <p className={Fonts.colab}>Essa iniciativa conta com a colaboração de empresa parceiras</p>
+    <a className={layouts.banners} href='https://www.ikovecapital.com/'>
+     <Image
+     src="/image/a2.png"
+     alt="a2"
+     width={400}
+     height={130}
+     />
+    </a>
+    <a className={layouts.banners} href='https://estacio.br/'>
+     <Image
+     src="/image/a3.png"
+     alt="a2"
+     width={400}
+     height={190}
+     />
+    </a>
+    <a className={layouts.banners} href='https://direto.tech/'>
+     <Image
+     src="/image/a4.png"
+     alt="a2"
+     width={400}
+     height={130}
+     />
+    </a>
+  </div>
+  <a id="contato"/>
+  <div className={layouts.contato}>
+    <h2 className={Fonts.aulas}>Contato</h2>
+    <form  action="/pagina-processa-dados-do-form" method="post">
+    <div>
+        <label className={layouts.textbox} for="nome">Nome:</label>
+        <input className={layouts.input} type="text" id="nome" />
+    </div>
+    <div>
+        <label className={layouts.textbox} for="email">E-mail:</label>
+        <input className={layouts.input} type="email" id="email" />
+    </div>
+    <div>
+        <label className={layouts.textbox} for="msg">Mensagem:</label>
+        <textarea className={layouts.text} id="msg"></textarea>
+    </div>
+    <button type="submit" className={Fonts.button}>Enviar
+          </button>
+</form>
   </div>
 </div>
   )}
-  

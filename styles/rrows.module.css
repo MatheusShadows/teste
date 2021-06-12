@@ -6,7 +6,7 @@
     padding: 0 10px;
   }
   
-  .row {margin: 0 0px 0 -25px;}
+  .row {overflow-x: hidden; margin: 0 0px 0 -25px;}
 
   .row::after {
     content: "";
@@ -15,8 +15,7 @@
     clear: both;
   }
   
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  .card { 
     padding: 12px;
     text-align: center;
     width: 97%;
@@ -24,8 +23,53 @@
   }
   
  
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 640px) {
     .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .img
+    {
+      margin: 0px 2% 0px 2%;
+      border-radius: 50%; 
+      border: 0px solid rgb(255, 255, 255);
+      width: 130px; 
+  }
+  
+  .columnd {
+    float: left;
+    display: flex;
+    width: 99%;
+    padding: 0 10px;
+    margin-top: 80px;
+  }
+  
+  .rowd {overflow-x: hidden; margin: 0 0px 0 -2px;}
+
+  .rowd::after {
+    content: "";
+    display: flex;
+    flex-direction: column;
+    clear: both;
+  }
+  
+  .cardd {
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2); 
+    padding: 12px;
+    text-align: center;
+    width: 90%;
+    height: 99%;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  @media screen and (max-width: 900px) {
+    .columnd {
       width: 100%;
       display: block;
       margin-bottom: 20px;
